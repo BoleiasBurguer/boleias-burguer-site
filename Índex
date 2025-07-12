@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Boleia’s Burguer – Novo Hamburgo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #fffbe6; color: #333; }
+        header { background-color: #000; color: #f9c31b; padding: 20px; text-align: center; }
+        nav { background: #f9c31b; padding: 10px; text-align: center; }
+        nav a { margin: 0 15px; text-decoration: none; color: #000; font-weight: bold; }
+        section { padding: 20px; max-width: 900px; margin: auto; }
+        .hero { text-align: center; }
+        .hero h1 { font-size: 2.5em; margin-bottom: 10px; }
+        .button { background: #f9c31b; padding: 10px 20px; color: #000; text-decoration: none; font-weight: bold; border-radius: 5px; display: inline-block; margin-top: 10px; }
+        footer { text-align: center; padding: 20px; background: #000; color: #fff; }
+        .cardapio, .pontos, .combo, .sobre, .contato { margin-bottom: 40px; }
+        .placeholder-img { background: #ddd; width: 100%; height: 300px; display: flex; align-items: center; justify-content: center; color: #555; font-size: 18px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Boleia’s Burguer</h1>
+    <p>O sabor que te leva pra estrada do hambúrguer artesanal!</p>
+</header>
+
+<nav>
+    <a href="#cardapio">Cardápio</a>
+    <a href="#pontos">Programa de Pontos</a>
+    <a href="#combo">Combo do Mês</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<section class="hero">
+    <div class="placeholder-img">[ Galeria de fotos aqui ]</div>
+    <a href="https://wa.me/5551982017776" class="button">Peça já no WhatsApp</a>
+</section>
+
+<section id="cardapio" class="cardapio">
+    <h2>Nosso Cardápio</h2>
+    <p>Acesse nosso cardápio completo clicando abaixo:</p>
+    <a href="https://app.cardapioweb.com/boleias_burguer?s=cb" class="button" target="_blank">Ver Cardápio</a>
+</section>
+
+<section id="pontos" class="pontos">
+    <h2>Programa de Pontos</h2>
+    <p><strong>A cada R$1 em compras pelo cardápio digital, você ganha 1 ponto!</strong><br>
+    Junte seus pontos e troque por <strong>descontos nas próximas compras</strong>.<br>
+    Os pontos acumulam e são válidos exclusivamente para pedidos feitos pelo nosso cardápio digital.<br>
+    <em>Consulte no WhatsApp como trocar!</em></p>
+</section>
+
+<section id="combo" class="combo">
+    <h2>Combo do Mês</h2>
+    <div class="placeholder-img">[ Aqui você adiciona a imagem e a descrição do combo do mês ]</div>
+</section>
+
+<section id="sobre" class="sobre">
+    <h2>Sobre a Boleia’s</h2>
+    <p>A Boleia’s nasceu pra quem ama hambúrguer de verdade. Nosso segredo? Ingredientes artesanais, torresmo crocante, chopp gelado e um clima perfeito pra curtir com os amigos no coração de Novo Hamburgo.</p>
+</section>
+
+<section id="contato" class="contato">
+    <h2>Fale Conosco</h2>
+    <p><a href="https://wa.me/5551982017776" class="button">Chamar no WhatsApp</a></p>
+    <p><a href="https://g.co/kgs/2N8g9pU" class="button">Avalie no Google</a></p>
+    <div style="margin-top:20px;">
+        <iframe src="https://www.google.com/maps?q=Centro,+Novo+Hamburgo,+RS&output=embed" width="100%" height="300" frameborder="0" style="border:0;"></iframe>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Boleia’s Burguer • Novo Hamburgo - RS</p>
+</footer>
+
+</body>
+</html>
